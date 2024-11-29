@@ -1,0 +1,81 @@
+📞 Contact
+
+> If you encounter any issues or have questions, feel free to reach out:
+
+- Contact: [Link](t.me/MeoMunDep)
+- Group: [Link](t.me/KeoAirDropFreeNe)
+- Channel: [Link](t.me/KeoAirDropFreeNee)
+
+> Help me with your referral [Link](https://chromewebstore.google.com/detail/openloopso-sentry-node-ex/effapmdildnpkiaeghlkicpfflpiambm) - Referral Code: `ol4126bf56`
+
+## 🚀 Getting Started
+
+To get started with the bot, follow these steps:
+
+0. **Dowload NodeJS to run the bot**
+
+-> [Link](https://t.me/KeoAirDropFreeNe/257/1462)
+
+> Remember to download Nodejs version: **20.9.0** and NPM version: **10.9.0**
+
+1. **Install Dependencies and Modules:**
+
+   ```
+   npm i user-agents axios colors p-limit https-proxy-agent socks-proxy-agent crypto-js ws uuid xlsx
+   ```
+
+2. **Prepare Configuration Files:**
+
+   > You'll need to set up a few configuration files for the bot to work properly.
+
+## 📁 Configuration Files
+
+### 1. `configs.json` 📜 - Adjust configuration
+
+```json
+{
+  "timeZone": "en-US",
+  "rotateProxy": true,
+  "skipInvalidProxy": false,
+  "proxyRotationInterval": 2,
+  "delayEachAccount": [5, 8],
+  "timeToRestartAllAccounts": 300,
+  "howManyAccountsRunInOneTime": 100,
+  "referralCode": "ol4126bf56",
+  "passwordsForCreateAccounts": "123456789", // passwords for create accounts
+  "howManyAccountsRunInOneTimeWhenCreateAccounts": 100
+}
+```
+
+### 2. `emails.txt` 🗂️ - Your email's address
+
+```txt
+xxx@gmail.com
+xxx@gmail.com
+xxx@gmail.com
+```
+
+### 3. `passwords.txt` 💼 - Your email's password
+
+```txt - wallet address
+xxx...
+xxx...
+xxx...
+```
+
+### 4. `proxies.txt` 🌐 - Proxy is an option. If you have one, fill it in; otherwise, leave it blank.
+
+```txt
+http://user:password@host:port
+https://user:password@host:port
+socks4://user:password@host:port
+socks5://user:password@host:port
+```
+
+💡 Usage:
+
+> You need to `cd` to the file after extract it.
+> To run the bot, use the following command: `node bot`
+> To run the create accounts bot, use the following command: `node create_accounts`
+
+🎇Enjoy!
